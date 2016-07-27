@@ -3,7 +3,6 @@
 
 # @Su.Py~#_
 
-import os
 import sys
 import time
 import re
