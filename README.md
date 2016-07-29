@@ -7,9 +7,10 @@ Basically it's a replacement for 'run.bat' or 'run.sh'
 It runs the server using the module subprocess and using re (regular expression)
 it changes the way log data is displayed.
 
-Adding colors to errors, warnings, player join, player leave, etc.
-Making the console look a bit more colorful.
-
+- Adds colors to warnings, errors, infos, player join/leave etc.
+- Icons for         "        "       "          "           e.g. (!, x, |, +, -)  
+- You *can execute commands.*
+- A few extra features on what to do when the server closes.
 
 The project was originally written as a web based server console,
 with PHP and Javascript working heavily together, using "screen" sessions to run the
@@ -23,7 +24,7 @@ and run it from the terminal /  command prompt
 
 ~$ python3 run.py
   
-# Args:
+# Arguements:
   -et (exit type): specify what to do when the server stops.
   - et 0: Exits when the server closes. (default)
   - et 1: Asks if you want to restart when the server closes.
@@ -35,3 +36,6 @@ and run it from the terminal /  command prompt
         
 This program has only been tested on Ubuntu 16.04 LTS.
 modules: sys, time, shlex, subprocess, signal and re
+
+# Screenshots:
+http://imgur.com/a/js95r
